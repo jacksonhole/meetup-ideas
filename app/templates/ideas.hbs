@@ -1,5 +1,13 @@
+<div class="well">
+  {{input type="text" id="new-idea" class="form-control"
+    placeholder="What's your idea?" value=newIdea action="createIdea"}}
+</div>
+
 <ul class="list-group">
   {{#each model as |idea| }}
-    <li class="list-group-item">{{idea.description}}</li>
+    <li class="list-group-item">
+      {{idea.description}}
+      <button {{action "deleteIdea" idea}} class="pull-right btn btn-xs btn-danger">X</button>
+    </li>
   {{/each}}
 </ul>
