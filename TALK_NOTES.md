@@ -46,7 +46,7 @@ Basic control statements
 
 Show and look at security errors. Content Security Policy (CSP) - Reduce XSS risk by explicitly declaring which dynamic resources are allowed: content-security-policy.org
 
-Remove:
+(Recklessly) Remove for now:
 
     npm rm --save-dev ember-cli-content-security-policy
 
