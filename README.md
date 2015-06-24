@@ -1,4 +1,6 @@
-# Meetup-ideas - [https://meetup-ideas.firebaseapp.com/](https://meetup-ideas.firebaseapp.com/)
+# Meetup-ideas
+
+Live site here: [https://meetup-ideas.firebaseapp.com/](https://meetup-ideas.firebaseapp.com/)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
